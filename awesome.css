@@ -1,0 +1,18 @@
+/* Bonus Calories */
+.__74183 .energy-remaining .energy-remaining-details .energy-remaining-number.negative-energy {
+    color: #85C400 !important;
+}
+
+/* Progress Bar and indicators */
+.__42a9e .progress-bar-container .progress-bar-progress.negative-energy {
+    background-color: #85C400 !important;
+    box-shadow: inset 0px 0px 2px #74ab00 !important;
+}
+
+.__42a9e .tooltip.negative-energy:after {
+    border-bottom-color: #85C400 !important;
+}
+
+.__42a9e .progress-bar-container .progress-bar-progress .tooltip-holder .tooltip.goal.negative-energy {
+    background: #85C400 !important;
+}
