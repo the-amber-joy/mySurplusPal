@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    
+
     "name": "My Surplus Pal",
     "version": "1.0",
     "description": "Puts a positive spin on my occasional well-deserved bonus calories",
@@ -8,6 +8,8 @@
     "permissions": ["*://*.myfitnesspal.com/*"],
     "content_scripts": [{
           "matches": ["*://*.myfitnesspal.com/*"],
-          "css": ["awesome.css"]
+          "css": ["awesome.css"],
+          "js": ["jquery.min.js", "awesome.js"],
+          "run_at": "document_idle"
     }]
 }

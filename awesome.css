@@ -1,4 +1,4 @@
-/* Bonus Calories */
+/* Bonus Calories Number */
 .__74183 .energy-remaining .energy-remaining-details .energy-remaining-number.negative-energy {
     color: #85C400 !important;
 }
@@ -14,5 +14,5 @@
 }
 
 .__42a9e .progress-bar-container .progress-bar-progress .tooltip-holder .tooltip.goal.negative-energy {
-    background: #85C400 !important;
+    background: #85C400 !important
 }
