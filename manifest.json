@@ -5,11 +5,25 @@
     "version": "1.0",
     "description": "Puts a positive spin on my occasional well-deserved bonus calories",
 
-    "permissions": ["*://*.myfitnesspal.com/*"],
+    "permissions": ["activeTab"],
+    "background": {
+        "scripts" : ["background.js"]
+        },
     "content_scripts": [{
           "matches": ["*://*.myfitnesspal.com/*"],
           "css": ["awesome.css"],
-          "js": ["jquery.min.js", "awesome.js"],
-          "run_at": "document_idle"
-    }]
+          "js": ["jquery.min.js", "awesome.js"]
+    }],
+    "browser_action": {
+      "default_icon": "burger.png"
+  },
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+F",
+        "mac": "MacCtrl+Shift+F"
+      },
+      "description": "runs the script"
+    }
+  }
 }
