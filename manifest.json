@@ -8,8 +8,7 @@
 
     "permissions": ["activeTab"],
     "background": {
-        "scripts" : ["background.js"],
-        "persistent" : false
+        "scripts" : ["background.js"]
         },
     "content_scripts": [{
           "matches": ["*://*.myfitnesspal.com/*"],
