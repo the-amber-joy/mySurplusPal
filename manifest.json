@@ -1,9 +1,10 @@
 {
     "manifest_version": 2,
 
-    "name": "My Surplus Pal",
+    "name": "My Surplus Pal by Ambro",
     "version": "1.0",
-    "description": "Puts a positive spin on my occasional well-deserved bonus calories",
+    "description": "Puts a positive spin on the occasional well-deserved bonus calories",
+    "author": "The Fire Chicken",
 
     "permissions": ["activeTab"],
     "background": {
@@ -11,19 +12,9 @@
         },
     "content_scripts": [{
           "matches": ["*://*.myfitnesspal.com/*"],
-          "css": ["awesome.css"],
-          "js": ["jquery.min.js", "awesome.js"]
+          "js": ["jquery.min.js"]
     }],
     "browser_action": {
-      "default_icon": "burger.png"
-  },
-  "commands": {
-    "_execute_browser_action": {
-      "suggested_key": {
-        "default": "Ctrl+Shift+F",
-        "mac": "MacCtrl+Shift+F"
-      },
-      "description": "runs the script"
-    }
+      "default_icon": "awesomeBurger.png"
   }
 }
