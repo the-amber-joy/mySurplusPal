@@ -8,7 +8,8 @@ if (target[0].textContent.indexOf("bonus") < 0) {
     // Replaces the negative number with a positive
     $(target).text(newNum);
     $(target).append(" bonus points!");
-} else {
+} 
+else {
     alert("Awesome score! Have a great day tomorrow!");
 }
 
