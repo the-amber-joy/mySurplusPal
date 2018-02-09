@@ -12,7 +12,7 @@
         },
     "content_scripts": [{
           "matches": ["*://*.myfitnesspal.com/*"],
-          "js": ["jquery.min.js"]
+          "js": ["jquery-3.3.1.slim.min.js"]
         }],
     "browser_action": {
       "default_icon": "awesomeBurger.png"

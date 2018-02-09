@@ -1,7 +1,7 @@
 // Get the element
 var target = document.getElementsByClassName('energy-remaining-number negative-energy');
 
-if (target[0].textContent.indexOf("bonus") < 0) {
+while (target[0].textContent.indexOf("bonus") < 0) {
     // Slice the minus sign off the negative number (I don't know why, but there are 9 spaces before it!)
     var newNum = $(target).text().trim().slice(1);
 
@@ -9,7 +9,3 @@ if (target[0].textContent.indexOf("bonus") < 0) {
     $(target).text(newNum);
     $(target).append(" bonus points!");
 } 
-else {
-    alert("Awesome score! Have a great day tomorrow!");
-}
-
