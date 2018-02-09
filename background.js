@@ -13,5 +13,3 @@ chrome.browserAction.onClicked.addListener(function(tab) {
         file: "awesome.js"
     });
 });
-
-
