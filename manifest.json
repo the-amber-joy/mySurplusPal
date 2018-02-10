@@ -1,10 +1,10 @@
 {
     "manifest_version": 2,
 
-    "name": "My Surplus Pal by Ambro",
+    "name": "My Surplus Pal",
     "version": "1.0",
     "description": "Puts a positive spin on the occasional well-deserved bonus calories",
-    "author": "The Fire Chicken",
+    "author": "Amber Joy",
 
     "permissions": ["activeTab"],
     "background": {
@@ -12,7 +12,7 @@
         "persistent": false
         },
     "content_scripts": [{
-          "matches": ["*://*.myfitnesspal.com/*"],
+          "matches": ["*://*.myfitnesspal.com/"],
           "js": ["jquery-3.3.1.slim.min.js"]
         }],
     "browser_action": {

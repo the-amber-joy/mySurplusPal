@@ -2,9 +2,7 @@ var target = document.getElementsByClassName('energy-remaining-number negative-e
 
 if (target[0].textContent.indexOf("bonus points") < 0) {
     chrome.runtime.sendMessage({message: "awesome it up"});
-    console.log(message);
 } 
 else if (target[0].textContent.indexOf("bonus points") > -1) {
-    chrome.runtime.sendMessage({message: "show popup"});
-    console.log(message);
+    chrome.runtime.sendMessage({message: "set popup"});
 }
