@@ -3,7 +3,7 @@
 
     "name": "My Surplus Pal",
     "version": "1.0",
-    "description": "Puts a positive spin on the occasional well-deserved bonus calories",
+    "description": "Puts a positive spin on the occasional bonus calories",
     "author": "Amber Joy",
 
     "permissions": ["activeTab"],
@@ -17,6 +17,5 @@
         }],
     "browser_action": {
       "default_icon": "awesomeBurger.png"
-
     }
 }
