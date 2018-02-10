@@ -16,6 +16,10 @@
           "js": ["jquery-3.3.1.slim.min.js"]
         }],
     "browser_action": {
-      "default_icon": "awesomeBurger.png"
+      "icons": {
+          "16": "burger_16.png",
+          "48": "burger_48.png",
+          "128": "burger_128.png"
+      }
     }
 }
