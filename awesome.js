@@ -8,4 +8,5 @@ while (target[0].textContent.indexOf("bonus") < 0) {
     // Replaces the negative number with a positive
     $(target).text(newNum);
     $(target).append(" bonus points!");
+    console.log("made it awesome");
 } 

@@ -16,10 +16,11 @@
           "js": ["jquery-3.3.1.slim.min.js"]
         }],
     "browser_action": {
-      "icons": {
-          "16": "burger_16.png",
-          "48": "burger_48.png",
-          "128": "burger_128.png"
+        "default_icon": "burger_16.png",
+        "icons": {
+            "16": "burger_16.png",
+            "48": "burger_48.png",
+            "128": "burger_128.png"
       }
     }
 }
