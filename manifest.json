@@ -1,12 +1,15 @@
 {
     "manifest_version": 2,
 
-    "name": "My Surplus Pal",
-    "version": "1.0.2",
+    "name": "MySurplusPal",
+    "version": "1.1.0",
     "description": "Puts a positive spin on the occasional bonus calories",
     "author": "Amber Joy",
 
-    "permissions": ["activeTab"],
+    "permissions": [
+        "tabs",
+        "*://*.myfitnesspal.com/"
+    ],
     "background": {
         "scripts" : ["background.js"],
         "persistent": false
