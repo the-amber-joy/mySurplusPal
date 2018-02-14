@@ -6,13 +6,13 @@
     "description": "Puts a positive spin on the occasional bonus calories",
     "author": "Amber Joy",
 
-    "permissions": ["tabs"],
+    "permissions": ["activeTab"],
     "background": {
         "scripts" : ["background.js"],
         "persistent": false
         },
     "content_scripts": [{
-          "matches": ["*://*.myfitnesspal.com/*"],
+          "matches": ["*://*.myfitnesspal.com/"],
           "js": ["jquery-3.3.1.slim.min.js"]
         }],
     "icons": {
