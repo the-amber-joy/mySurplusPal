@@ -4,11 +4,12 @@
 
 var enableBasedOnLocation = function() {
     getCurrentTab().then(function(tab){
-        if (tab.url !== "http://www.myfitnesspal.com/") {
-            chrome.browserAction.disable(tab.id);
-        } else if (tab.url == "http://www.myfitnesspal.com/") {
+        if (tab.url == "http://www.myfitnesspal.com/") {
             chrome.browserAction.enable(tab.id);
-        }   
+        } 
+        else if (tab.url !== "http://www.myfitnesspal.com/") {
+            chrome.browserAction.disable(tab.id);
+        }
     });
     getUpdatedTab();
 }
@@ -53,14 +54,11 @@ function getCurrentTab(){
 }
 
 function getUpdatedTab(tabId, changeInfo, tab) {
-    if (changeInfo.url !== undefined) {
-        if (changeInfo.url !== "http://www.myfitnesspal.com/") {
-            chrome.browserAction.disable(tabId);
-        } else if (changeInfo.url == "http://www.myfitnesspal.com/") {
-            chrome.browserAction.enable(tabId)
-        }
-    } else { 
-        return; 
+    if (changeInfo.url !== "http://www.myfitnesspal.com/") {
+        chrome.browserAction.disable(tabId);
+    } 
+    else if (changeInfo.url == "http://www.myfitnesspal.com/") {
+        chrome.browserAction.enable(tabId)
     }
 }
 
@@ -69,6 +67,7 @@ function getUpdatedTab(tabId, changeInfo, tab) {
 ///////////////////////////
 
 // Listen for current location, enable button only on MFP
+chrome.tabs.onUpdated.addListener(enableBasedOnLocation);
 chrome.tabs.onActivated.addListener(enableBasedOnLocation);
 
 // On click, check the status of the page and determine which action to take
