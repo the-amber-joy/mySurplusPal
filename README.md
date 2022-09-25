@@ -1,3 +1,8 @@
+## Update - 25-Sep-2022
+*Friendship ended with MyFitnessPal, now Cronometer is my favorite food tracker. I logged into MFP recently and noticed they changed their UI, and this extension is moot. I've unpublished it from the Chrome Web Store.
+-Amber*
+
+
 # <img src="burger_48.png" width="48px" align="left"> My Surplus Pal
 Background: I made this when I was hard at work cutting weight for a powerlifting meet where I needed to be 2 weight classes below where I had been. I am much more competitive in the 57kg class than 72kg!
 
