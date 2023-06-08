@@ -10,5 +10,10 @@ It always bugged me when MyFitnessPal would make any surplus calories I logged i
 
 This Chrome extension turns those extra calories into "bonus points," because I don't like to feel as if I'm being shamed for eating.
 
+![image](https://github.com/the-amber-joy/mySurplusPal/assets/13399728/ffe24c48-7a5c-4f73-b528-ce7954147dce)
+![image](https://github.com/the-amber-joy/mySurplusPal/assets/13399728/1ea3fe4b-9a95-4798-99fc-da182e4beb24)
+![image](https://github.com/the-amber-joy/mySurplusPal/assets/13399728/46ff378b-1d95-4fe1-aacf-af7faff1ab38)
+
+
 ## Install
-<a href="https://chrome.google.com/webstore/detail/my-surplus-pal/bemgffiokpkcfmmnpopiggicpnkjdpeb" target="_blank">MySurplusPal on Chrome Web Store</a>
+~<a href="https://chrome.google.com/webstore/detail/my-surplus-pal/bemgffiokpkcfmmnpopiggicpnkjdpeb" target="_blank">MySurplusPal on Chrome Web Store</a>~
